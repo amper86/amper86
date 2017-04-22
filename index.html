@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Gym</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.5.2.min.js"></script>
+    <script type="text/javascript" src="js/amazon_scroller.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="social">
+                <div class="phone-container">
+                    <img class="phone-ico" src="Images/phone_03.jpg" alt="phone_ico">
+                    <p class="number">+7(495)123-45-67</p>
+                </div>
+                <div class="menu-soc">
+                    <ul>
+                        <li><a class="vk" href="#"></a></li>
+                        <li><a class="twitter" href="#"></a></li>
+                        <li><a class="pinterest" href="#"></a></li>
+                        <li><a class="google" href="#"></a></li>
+                        <li><a class="tumblr" href="#"></a></li>
+                        <li><a class="facebook" href="#"></a></li>
+                        <li><a class="instagram" href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="logo-nav">
+                <a href="#" title="MrGanteli">
+                    <img src="Images/logo_header.jpg" alt="logo">
+                </a>
+                <ul>
+                    <li><a class="selected" href="#">ГЛАВНАЯ</a></li>
+                    <li><a href="#">РАСПИСАНИЕ</a></li>
+                    <li><a href="#">СКИДКИ</a></li>
+                    <li><a href="#">КОМАНДА</a></li>
+                    <li><a href="#">ЗАЛЫ</a></li>
+                    <li><a href="#">ЦЕНЫ</a></li>
+                    <li><a href="#">КОНТАКТЫ</a></li>
+                </ul>
+            </div>
+            <div class="gym"></div>
+            <div class="way">
+                <p>Сайт > <a href="#" class="way-link">Главная</a></p>
+            </div>
+        </header>
+        <div class="content">
+            <div class="content-col">
+                <div class="sale-col">
+                    <h2>Весенния акция! Скидки до 50% на членскую карту.</h2>
+                    <p>
+                        <span class="time"></span>
+                        <span class="date">14.апр.2017</span>
+                    </p>
+                    <div class="sale-img"></div>
+                    <div class="sale-info">
+                        <p class="st">До лета осталось совсем чуть-чуть - надеемся
+                            наши скидки станут еще одним мотиватором для марш-броска к идеальному
+                            летнему телу!</p>
+
+                        <p class="st">Стандарт Год –  10000 руб.</p>
+                        <p class="st">Стандарт 6 мес – 9000 руб.</p>
+                        <p class="st">Стандарт 3 мес – 6000 руб.</p>
+                        <p class="st">Стандарт 2 мес – 4500  руб.</p>
+                        <p class="st">Утро Год –  8000 руб.</p>
+                        <p class="st">Утро 9 мес – 10000 руб.</p>
+                        <p class="st">Утро 6 мес – 7000 руб.</p>
+                        <p class="st">Утро 3 мес – 4000 руб.</p>
+                        <p class="st">Утро 2 мес –  3000 руб.</p>
+
+                        <p class="st">Акция действует и для новых, и для постоянных клиентов.</p>
+
+                        <p class="st">Торопитесь, количество акционных карт ограничено</p>
+                    </div>
+                    <div class="soc-sale"></div>
+                </div>
+                <div class="contact-col">
+                    <h2>Мы находимся:</h2>
+                    <p>г.Москва, Рязанский просп., 7, стр. 1</p>
+                    <h2>Наш телефон</h2>
+                    <p>+7 (495) 123-45-67</p>
+                    <h2>E-mail:</h2>
+                    <a href="mailto:info@mrganteli.ru">info@mrganteli.ru</a>
+                    <form class="form-contact" action="contact.php" name="contact" method="post">
+                        <h2>Есть вопросы или просто хотите поблагодарить? Тогда пишите нам:</h2>
+                        <input type="text" name="contact_name" placeholder="Ваше имя" maxlength="30">
+                        <input type="text" name="contact_phone" placeholder="Телефон или e-mail" maxlength="30">
+                        <textarea name="text" placeholder="Сообщение" maxlength=""></textarea>
+                        <button>Отправить ></button>
+                    </form>
+                    <div class="map">
+                        <script class="map" type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Acd423bdfbf008f31e815aa5196781087442272faf0cc7eb92dc820b90fde1f1e&amp;width=100%25&amp;height=360&amp;lang=ru_RU&amp;scroll=true"></script>
+                    </div>
+                </div>
+            </div>
+            <div class="news-col">
+                <div class="section">
+                    <ul>РАЗДЕЛЫ
+                        <li><a href="#">БОКС</a></li>
+                        <li><a href="#">ЙОГА</a></li>
+                        <li><a href="#">АЭРОБИКА</a></li>
+                        <li><a href="#">ПЕЛАТЕС</a></li>
+                        <li><a href="#">ФИТБОЛ</a></li>
+                    </ul>
+                </div>
+                <script language="javascript" type="text/javascript">
+
+                    $(function() {
+                        $("#amazon_scroller2").amazon_scroller({
+                            scroller_title_show: 'enable',
+                            scroller_time_interval: '3000',
+                            scroller_window_background_color: "none",
+                            scroller_window_padding: '10',
+                            scroller_border_size: '0',
+                            scroller_border_color: '#CCC',
+                            scroller_images_width: '160',
+                            scroller_images_height: '120',
+                            scroller_title_size: '12',
+                            scroller_title_color: '#00bff0',
+                            scroller_show_count: '1',
+                            directory: 'images'
+                        });
+                    });
+                </script>
+                <div class="trainer-photo">
+                    <h1>Наши тренеры</h1>
+                    <div id="amazon_scroller2" class="amazon_scroller">
+                        <div class="amazon_scroller_mask">
+                            <ul>
+                                <li><a href="images/scroller_box.jpg" title="Бокс"><img src="images/scroller_box.jpg" width="60" height="60" alt="title"/></a></li>
+                                <li><a href="images/scroller_yoga.jpg" title="Йога"><img src="images/scroller_yoga.jpg" width="60" height="60" alt="title"/></a></li>
+                                <li><a href="images/scroller_fitbol.jpg" title="Фитбол"><img src="images/scroller_fitbol.jpg" width="60" height="60" alt="title"/></a></li>
+                                <li><a href="images/scroller_pelates.jpg" title="Пелатес"><img src="images/scroller_pelates.jpg" width="60" height="60" alt="title"/></a></li>
+                                <li><a href="images/scroller_fitnes.jpg" title="Фитнес"><img src="images/scroller_fitnes.jpg" width="60" height="60" alt="title"/></a></li>
+                                <!--<li><a href="images/scroller_large_2.jpg" title="Высотка"><img src="images/scroller_large_2.jpg" width="60" height="60" alt="title"/></a></li>
+                                <li><a href="images/scroller_large_3.jpg" title="Храм Христа Спасителя"><img src="images/scroller_large_3.jpg" width="60" height="60" alt="title"/></a></li>
+                                <li><a href="images/scroller_large_4.jpg" title="Москва река"><img src="images/scroller_large_4.jpg" width="60" height="60" alt="title"/></a></li>-->
+                            </ul>
+                        </div>
+                        <ul class="amazon_scroller_nav">
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="membership">
+                    <h1>ЦЕНЫ ДЛЯ ЧЛЕНОВ КЛУБА</h1>
+                    <div class="membership-text">
+                        <h2>25% СКИДКИ НА УСЛУГИ</h2>
+                        <p>Скидки на услуги и процедуры
+                        для всех владельцев членской карточки</p>
+                        <a href="#">подробнее</a>
+                    </div>
+                </div>
+                <div class="partner">
+                    <h1>ПАРТНЕРЫ</h1>
+                    <div class="partner_1">
+                        <a class="link-partner nike" href="https://nike.com" target="_blank" title="nike"></a>
+                        <a class="link-partner adidas" href="https://adidas.ru" title="adidas"></a>
+                    </div>
+                    <div class="partner_2">
+                        <a class="link-partner reebok" href="https://reebok.ru" target="_blank" title="reebok"></a>
+                        <a class="link-partner puma" href="https://ru.puma.com" target="_blank" title="puma"></a>
+                    </div>
+                    <div class="partner_3">
+                        <a class="link-partner jaked" href="https://jaked.com" target="_blank" title="jaked"></a>
+                        <a class="link-partner speedo" href="https://speedo.com.ru" target="_blank" title="speedo"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <footer>
+            <div class="footer-cont">
+                <div class="news-submit">
+                    <form class="form-news" action="news.php" name="news" method="post">
+                        <p id="h">НОВОСТНАЯ ПОДПИСКА</p>
+                        <p>ПОДПИШИТЕСЬ НА НАШУ РАССЫЛКУ</p>
+                        <p>И ПОЛУЧАЙТЕ ПОСЛЕДНИЕ НОВОСТИ</p>
+                        <input class="email" type="text" name="email" placeholder="ВВЕДИТЕ E-MAIL" maxlength="25">
+                        <input class="button" type="submit" value="ОТПРАВИТЬ >">
+                    </form>
+                </div>
+                <div class="contact-footer">
+                    <a href="#">
+                        <img src="Images/logo_header.jpg" alt="logo" title="MrGanteli">
+                    </a>
+                    <p class="slogan">
+                        Мы всегда прислушиваемся к мнению наших клиентов и
+                        делаем все возможное, чтобы уверенно шагать в ногу со
+                        временем.
+                    </p>
+                    <p>Телефон:<span class="number-footer">+7 (495) 123-45-67</span></p>
+                    <p>e-mail:
+                        <a href="mailto:info@mrganteli.ru">info@mrganteli.ru</a>
+                    </p>
+                </div>
+                <div class="menu-footer">
+                    <ul>МЕНЮ
+                        <li><a href="#" class="selected-footer">Главная</a></li>
+                        <li><a href="#">Расписание</a></li>
+                        <li><a href="#">Скидки</a></li>
+                        <li><a href="#">Команда</a></li>
+                        <li><a href="#">Залы</a></li>
+                        <li><a href="#">Цены</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-soc">
+                <p>
+                    &#169; 2017 MrGanteli
+                </p>
+                <div class="menu-soc menu-soc-footer">
+                    <ul>
+                        <li><a class="vk" href="#"></a></li>
+                        <li><a class="twitter" href="#"></a></li>
+                        <li><a class="pinterest" href="#"></a></li>
+                        <li><a class="google" href="#"></a></li>
+                        <li><a class="tumblr" href="#"></a></li>
+                        <li><a class="facebook" href="#"></a></li>
+                        <li><a class="instagram" href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
