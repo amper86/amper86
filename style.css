@@ -31,6 +31,7 @@ a {
 }
 .number {
     font-size: 12px;
+    text-decoration: none;
 }
 .menu-soc {
     padding-top: 10px;
@@ -198,7 +199,7 @@ a {
     color: gray;
 }
 .trainer-photo {
-    height: 250px;
+   /* height: 250px;*/
     background: white;
 }
 /*slider start*/
@@ -254,7 +255,7 @@ a {
 }
 /*slider finish*/
 .membership {
-    height: 395px;
+    /*height: 395px;*/
     color: #72d0f4;
 }
 .membership h1 {
@@ -295,7 +296,7 @@ a {
     transition: ease-out 1s;
 }
 .membership-text a:hover {
-    color: gray;
+    color: #808080;
     background: rgba(255, 255, 255, 0.2);
 }
 .partner {
@@ -361,10 +362,13 @@ a {
 .speedo:hover {
     background: url("Images/partner_spr.jpg") no-repeat -600px -100px;
 }
-.footer-cont {
-    height: 300px;
-    padding: 0 10.6%;
+footer {
     background: #72d0f4;
+}
+.footer-cont {
+    /*height: 300px;*/
+    padding: 0 10.6%;
+    /*background: #72d0f4;*/
 }
 .news-submit {
     float: left;
@@ -448,10 +452,12 @@ a {
 }
 .contact-footer > p > .number-footer {
     font-size: 18px;
+    color: white;
 }
 .contact-footer > p > a {
     color: white;
     font-size: 20px;
+    text-decoration: none;
 }
 .contact-footer > p > a:hover {
     text-decoration: underline;
@@ -551,6 +557,8 @@ a {
     font-size: 14px;
 }
 .contact-col > p {
+    color: #7f8c8c;
+    text-decoration: none;
     margin-top: 15px;
     font-size: 18px;
     font-weight: bold;
