@@ -11,9 +11,59 @@
     <script type="text/javascript" src="js/amazon_scroller.js"></script>
 </head>
 <body>
-    <div class="wrapper">
+    <div class="wrapper wrapper-tablet">
         <header>
-            <div class="social">
+            <div class="social social-phone">
+                <div class="mobile-menu">
+                    <ul id="gn-menu" class="gn-menu-main gn-menu-main-no">
+                    <li class="gn-trigger">
+                        <a class="menu-bars">
+                            <i class="fa fa-bars"></i>
+                            <span>Меню</span>
+                        </a>
+                        <nav class="gn-menu-wrapper">
+                            <div class="gn-scroller">
+                                <ul class="gn-menu">
+                                    <li>
+                                        <a href="#">Главная
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Расписание
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Скидки
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Команда
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Залы
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Цены
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#contact-inf">Контакты
+                                        </a>
+                                    </li>
+                                    <!-- ... /-->
+                                </ul>
+                            </div>
+                        </nav>
+                    </li>
+                </ul>
+                </div>
+                <script src="js/classie.js"></script>
+                <script src="js/gnmenu.js"></script>
+                <script>
+                    new gnMenu(document.getElementById('gn-menu'));
+                </script>
                 <div class="phone-container">
                     <img class="phone-ico" src="Images/phone_03.jpg" alt="phone_ico">
                     <p class="number">+7(495)123-45-67</p>
@@ -30,7 +80,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="logo-nav">
+            <div class="logo-nav logo-nav-phone">
                 <a href="#" title="MrGanteli">
                     <img src="Images/logo_header.jpg" alt="logo">
                 </a>
@@ -45,12 +95,12 @@
                 </ul>
             </div>
             <div class="gym"></div>
-            <div class="way">
+            <div class="way way-phone">
                 <p>Сайт > <a href="#" class="way-link">Главная</a></p>
             </div>
         </header>
-        <div class="content">
-            <div class="content-col">
+        <div class="content content-phone content-tablet">
+            <div class="content-col content-col-phone">
                 <div class="sale-col">
                     <h2>Весенния акция! Скидки до 50% на членскую карту.</h2>
                     <p>
@@ -98,7 +148,7 @@
                     </div>
                 </div>
             </div>
-            <div class="news-col">
+            <div class="news-col news-col-phone">
                 <div class="section">
                     <ul>РАЗДЕЛЫ
                         <li><a href="#">БОКС</a></li>
@@ -127,7 +177,7 @@
                         });
                     });
                 </script>
-                <div class="trainer-photo">
+                <div class="trainer-photo trainer-photo-tablet">
                     <h1>Наши тренеры</h1>
                     <div id="amazon_scroller2" class="amazon_scroller">
                         <div class="amazon_scroller_mask">
@@ -151,7 +201,7 @@
                 </div>
                 <div class="membership">
                     <h1>ЦЕНЫ ДЛЯ ЧЛЕНОВ КЛУБА</h1>
-                    <div class="membership-text">
+                    <div class="membership-text membership-text-tablet">
                         <h2>25% СКИДКИ НА УСЛУГИ</h2>
                         <p>Скидки на услуги и процедуры
                         для всех владельцев членской карточки</p>
@@ -177,8 +227,8 @@
             <div class="clear"></div>
         </div>
         <footer>
-            <div class="footer-cont">
-                <div class="news-submit">
+            <div class="footer-cont footer-cont-phone">
+                <div class="news-submit news-submit-phone">
                     <form class="form-news" action="news.php" name="news" method="post">
                         <p id="h">НОВОСТНАЯ ПОДПИСКА</p>
                         <p>ПОДПИШИТЕСЬ НА НАШУ РАССЫЛКУ</p>
@@ -187,7 +237,7 @@
                         <button class="button">ОТПРАВИТЬ ></button>
                     </form>
                 </div>
-                <div class="contact-footer">
+                <div class="contact-footer contact-footer-phone">
                     <a href="#">
                         <img src="Images/logo_header.jpg" alt="logo" title="MrGanteli">
                     </a>
@@ -201,7 +251,7 @@
                         <a href="mailto:info@mrganteli.ru">info@mrganteli.ru</a>
                     </p>
                 </div>
-                <div class="menu-footer">
+                <div class="menu-footer menu-footer-phone">
                     <ul>МЕНЮ
                         <li><a href="#" class="selected-footer">Главная</a></li>
                         <li><a href="#">Расписание</a></li>
