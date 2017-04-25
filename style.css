@@ -203,6 +203,7 @@ a {
 .trainer-photo {
    /* height: 250px;*/
     background: white;
+    padding-bottom: 20px;
 }
 /*slider start*/
 .trainer-photo h1 {
@@ -269,7 +270,7 @@ a {
 }
 .membership-text {
     /*height: 250px;*/
-    padding: 60px 15% 0;
+    padding: 60px 15% 40px;
     text-align: center;
     background: #72d0f4;
     color: white;
@@ -606,7 +607,7 @@ footer {
 }
 .form-contact button {
     display: block;
-    width: 100px;
+    width: 120px;
     height: 40px;
     margin-top: 20px;
     background: #E25050;
@@ -633,8 +634,11 @@ footer {
 .mobile-menu {
     display: none;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     /*for phone*/
+    /*.wrapper-phone {
+        width: 400px;
+    }*/
     .mobile-menu {
         display: block;
     }
@@ -684,21 +688,21 @@ footer {
         width: 100%;
     }
 }
-@media screen and (max-width: 760px ) {
-/*for tablet*/
+/*@media screen and (max-width: 760px ) {
+!*for tablet*!
     .wrapper-tablet {
         width: 760px;
     }
     .content-tablet {
-        padding: 20px 0 0 0;
+        padding: 20px 5% 0 5%;
     }
     .trainer-photo-tablet {
-        padding: 0 2% 20px 0;
+        padding: 0 2% 50px 0;
     }
     .membership-text-tablet {
         padding: 10px 2%;
     }
-}
+}*/
 /*finish*/
 /*test mobile menu start*/
 
