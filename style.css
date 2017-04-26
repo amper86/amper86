@@ -13,7 +13,7 @@ a {
 }
 .wrapper {
     max-width: 1522px;
-    min-width: 400px;
+    width: 100%;
     margin: 0 auto;
 }
 .social {
@@ -636,9 +636,9 @@ footer {
 }
 @media screen and (max-width: 500px) {
     /*for phone*/
-    .wrapper-phone {
+    /*.wrapper-phone {
         width: 400px;
-    }
+    }*/
     .mobile-menu {
         display: block;
     }
