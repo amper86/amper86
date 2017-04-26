@@ -637,7 +637,7 @@ footer {
 @media screen and (max-width: 500px) {
     /*for phone*/
     .wrapper-phone {
-        width: 500px;
+        width: 400px;
     }
     .mobile-menu {
         display: block;
