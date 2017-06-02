@@ -19,7 +19,7 @@
         var l=p&&p.scroller_border_color?p.scroller_border_color:"black";
         var m=p&&p.scroller_images_width?p.scroller_images_width:"50";
         var n=p&&p.scroller_images_height?p.scroller_images_height:"70";
-        var o=p&&p.scroller_title_size?p.scroller_title_size:"12";
+        var o=p&&p.scroller_title_size?p.scroller_title_size:"16";
         var q=p&&p.scroller_title_color?p.scroller_title_color:"blue";
         var r=p&&p.scroller_show_count?p.scroller_show_count:"5";
         var d=p&&p.directory?p.directory:"images";

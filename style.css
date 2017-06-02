@@ -12,7 +12,7 @@ a {
     text-decoration: none;
 }
 .wrapper {
-    max-width: 1522px;
+    max-width: 1900px;
     width: 100%;
     margin: 0 auto;
 }
@@ -509,6 +509,7 @@ footer {
 /*start*/
 .sale-col {
     width: 100%;
+    padding: 0 2%;
     background: white;
 }
 .sale-col h2 {
@@ -530,10 +531,7 @@ footer {
     margin-right: 5px;
 }
 .sale-img {
-    background: url("Images/sale_50.jpg") no-repeat center/cover;
-    width: 100%;
-    height: 560px;
-    border-radius: 10px;
+    max-width: 100%;
 }
 .sale-info {
     padding: 0 2%;
@@ -636,15 +634,21 @@ footer {
 }
 @media screen and (max-width: 500px) {
     /*for phone*/
-    /*.wrapper-phone {
-        width: 400px;
-    }*/
+    .wrapper-phone {
+        min-width: 300px;
+    }
     .mobile-menu {
         display: block;
+    }
+    .phone-container {
+        max-width: 100px;
     }
     .social-phone {
         margin-top: 60px;
         padding: 0;
+    }
+    .number {
+        font-size: 8px;
     }
     .logo-nav-phone {
         padding: 20px 0 0;
@@ -671,6 +675,9 @@ footer {
     .news-col-phone {
         margin-left: 0;
         width: 100%;
+    }
+    .footer-soc {
+        padding: 0;
     }
     .footer-cont-phone {
         padding: 0 2%;
